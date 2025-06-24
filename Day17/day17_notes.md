@@ -23,7 +23,7 @@ with open("data.txt", "r") as file:
 # File is automatically closed after the block
 ```
 ---
-🔹 Under the Hood: __enter__ and __exit__
+## 🔹 Under the Hood: __enter__ and __exit__
 To create your own context manager, you define a class with:
 
 __enter__() → what happens when entering the with block
@@ -43,26 +43,27 @@ class MyManager:
 ```
 ---
 
-🔹 Why Use Context Managers?
-Ensures proper cleanup of resources
+##🔹 Why Use Context Managers?
 
-Improves code readability
+- Ensures proper cleanup of resources
 
-Reduces chances of bugs and memory leaks
+- Improves code readability
+
+- Reduces chances of bugs and memory leaks
 
 Used widely in file I/O, networking, threading, database connections, etc.
 ---
 
-🎯 Challenge – Build a Context Manager for Safe File Handling
+## 🎯 Challenge – Build a Context Manager for Safe File Handling
 In this challenge, I:
 
-Created a custom class FileManager with __enter__ and __exit__ methods
+- Created a custom class FileManager with __enter__ and __exit__ methods
 
-Ensured the file is opened when entering the with block and automatically closed afterward
+- Ensured the file is opened when entering the with block and automatically closed afterward
 
-Handled potential exceptions gracefully using the __exit__ method
+- Handled potential exceptions gracefully using the __exit__ method
 
-Tested the context manager with both writing and reading a text file
+- Tested the context manager with both writing and reading a text file
 
 This challenge helped me truly understand what happens behind the scenes of the with statement and how to build powerful, reusable resource managers in Python.
 
