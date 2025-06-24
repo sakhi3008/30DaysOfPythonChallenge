@@ -23,12 +23,12 @@ with open("data.txt", "r") as file:
 # File is automatically closed after the block
 ```
 ---
-## 🔹 Under the Hood: __enter__ and __exit__
+## 🔹 Under the Hood: `__enter__` and `__exit__`
 To create your own context manager, you define a class with:
 
-__enter__() → what happens when entering the with block
+`__enter__()` → what happens when entering the with block
 
-__exit__() → what happens when exiting the block (handles closing, cleanup, and error control)
+`__exit__()` → what happens when exiting the block (handles closing, cleanup, and error control)
 
 ### 🔸 Example:
 ```python
@@ -58,11 +58,11 @@ class MyManager:
 ## 🎯 Challenge – Build a Context Manager for Safe File Handling
 In this challenge, I:
 
-- Created a custom class FileManager with __enter__ and __exit__ methods
+- Created a custom class FileManager with `__enter__` and `__exit__` methods
 
-- Ensured the file is opened when entering the with block and automatically closed afterward
+- Ensured the file is opened when entering the `with` block and automatically closed afterward
 
-- Handled potential exceptions gracefully using the __exit__ method
+- Handled potential exceptions gracefully using the `__exit__` method
 
 - Tested the context manager with both writing and reading a text file
 
