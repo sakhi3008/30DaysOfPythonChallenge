@@ -48,6 +48,15 @@ Connection: close
 ```
 
 - The headers specify the **path**, the **HTTP version**, the **host** we're contacting, and that we want to **close the connection** after receiving the response.
+---
+
+## 🎯 Challenge – Fetch and Display a Webpage’s Content
+
+In this challenge, I built a simple HTTP client using sockets that:
+
+- Connected to `example.org`
+- Manually sent an HTTP GET request
+- Printed the raw HTML content of the homepage
 
 ---
 
@@ -61,16 +70,6 @@ Connection: close
 ✅ Received the raw **HTTP response**  
 ✅ Parsed the response to extract and print only the HTML content  
 ✅ Closed the socket to release resources  
-
----
-
-## 🎯 Challenge – Fetch and Display a Webpage’s Content
-
-In this challenge, I built a simple HTTP client using sockets that:
-
-- Connected to `example.org`
-- Manually sent an HTTP GET request
-- Printed the raw HTML content of the homepage
 
 ---
 
