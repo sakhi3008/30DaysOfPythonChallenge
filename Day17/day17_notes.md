@@ -43,7 +43,7 @@ class MyManager:
 ```
 ---
 
-##🔹 Why Use Context Managers?
+## 🔹 Why Use Context Managers?
 
 - Ensures proper cleanup of resources
 
@@ -51,7 +51,8 @@ class MyManager:
 
 - Reduces chances of bugs and memory leaks
 
-Used widely in file I/O, networking, threading, database connections, etc.
+- Used widely in file I/O, networking, threading, database connections, etc.
+
 ---
 
 ## 🎯 Challenge – Build a Context Manager for Safe File Handling
