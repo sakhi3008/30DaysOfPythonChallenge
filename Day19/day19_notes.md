@@ -71,6 +71,8 @@ Concurrency means **handling multiple tasks during the same period**. Tasks may 
 
 - Used `start()` to initiate and `join()` to synchronize threads
 
+--- 
+
 ## 🧠 Key Learnings:
 
 - How to manage multiple threads
@@ -81,7 +83,9 @@ Concurrency means **handling multiple tasks during the same period**. Tasks may 
 
 - Efficient handling of I/O operations without blocking the main program
 
-#3 🛠️ Summary
+---
+
+## 🛠️ Summary
 
 - Concurrency helps make programs responsive and efficient.
 
