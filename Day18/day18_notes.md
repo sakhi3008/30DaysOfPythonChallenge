@@ -20,7 +20,9 @@ Behind the scenes, Python is actually doing something like this:
 ```python
 MyClass = type('MyClass', (), {})
 ```
+
 This means that `type` creates the class `MyClass`, just like `MyClass()` would create an instance of `MyClass`.
+
 ---
 
 ## 🔹 Why Use a Metaclass?
