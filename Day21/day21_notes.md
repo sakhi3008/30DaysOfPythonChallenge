@@ -81,6 +81,4 @@ Web scraping is an essential skill for data analysts, journalists, and developer
 * Job listings aggregation
 * Research and analysis tasks
 
----
 
-Let me know if you want the Day 22 notes next!
