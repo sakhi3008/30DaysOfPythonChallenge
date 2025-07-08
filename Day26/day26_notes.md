@@ -4,7 +4,7 @@ Today’s challenge introduced me to **building RESTful APIs using FastAPI**, on
 
 ---
 
-## 🔹 Topics Covered
+## 🔹 Topics Covered 
 
 ### 🔹 What is an API?
 
