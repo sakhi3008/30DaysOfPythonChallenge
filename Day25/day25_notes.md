@@ -34,7 +34,7 @@ class User(BaseModel):
 Once defined, you can create instances with automatic validation:
 
 ```python
-user = User(name="Alice", age=30)
+user = User(name="Sakhi", age=24)
 ```
 
 ---
