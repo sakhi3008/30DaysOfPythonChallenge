@@ -63,6 +63,59 @@ book = Book()  # Uses all default values
 
 ---
 
+### 🔸 More Features of Dataclasses
+
+#### 🔹 `field()` Function:
+
+Use `field()` to customize the behavior of individual fields.
+
+```python
+from dataclasses import dataclass, field
+
+@dataclass
+class Config:
+    options: list = field(default_factory=list)
+```
+
+Here, `default_factory` ensures a new list is created for each instance.
+
+#### 🔹 `frozen=True`:
+
+Make the dataclass immutable.
+
+```python
+@dataclass(frozen=True)
+class Point:
+    x: int
+    y: int
+```
+
+You cannot modify the attributes after object creation.
+
+#### 🔹 `init=False`:
+
+Exclude a field from the generated `__init__()` method.
+
+```python
+@dataclass
+class Counter:
+    count: int = 0
+    status: str = field(init=False, default="idle")
+```
+
+#### 🔹 `repr=False`, `compare=False`:
+
+Prevent fields from appearing in `__repr__()` or being used in comparisons.
+
+```python
+@dataclass
+class Secret:
+    public_info: str
+    secret_info: str = field(repr=False, compare=False)
+```
+
+---
+
 ## 🎯 Challenge – LibraryBook Dataclass
 
 ### Problem Statement:
@@ -87,6 +140,7 @@ Also, include a method to display the book details.
 * How to define and use dataclasses in Python
 * The importance of type hints and default values
 * How to enhance a simple class with built-in functionality using `@dataclass`
+* Useful features like `frozen`, `default_factory`, and field customization with `field()`
 
 Dataclasses are perfect when working with structured data like configurations, records, or any object that mainly stores attributes.
 
