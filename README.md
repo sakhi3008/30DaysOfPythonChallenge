@@ -1,6 +1,7 @@
 # 🐍 30 Days of Python Challenge – IDC Learning Marathon
 
 Welcome to my journey through the **30 Days of Python Challenge**, organized by IDC(Indian Data Club)! 🚀
+
 This intensive and hands-on program helped me strengthen my core Python skills, build practical projects, and master real-world concepts — from beginner to advanced.
 
 ---
@@ -64,8 +65,8 @@ This intensive and hands-on program helped me strengthen my core Python skills, 
 
 --- 
 
-> 📁 Repository Structure:
->
-> * Each day’s code is organized inside respective folders (Day01 to Day30)
-> * Includes project files, requirements, and documentation
+## 📁 Repository Structure:
+
+* Each day’s code is organized inside respective folders (Day01 to Day30)
+* Includes project files, requirements, and documentation
 
