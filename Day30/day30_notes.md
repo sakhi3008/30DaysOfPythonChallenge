@@ -131,5 +131,5 @@ This final project tied together everything I learned during the 30 days:
 * CLI tools
 * Streamlit apps
 
-> A complete mini ecosystem for Python interview preparation built in just 30 days!
+A complete mini ecosystem for Python interview preparation built in just 30 days!
 
