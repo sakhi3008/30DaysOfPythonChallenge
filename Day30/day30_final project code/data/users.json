@@ -1,0 +1,71 @@
+{
+    "sakhi": {
+        "attempted": 31,
+        "correct": 26,
+        "last_played": null,
+        "streak": 1,
+        "quiz_log": [
+            "35. What is Polymorphism in Python?",
+            "36. Define encapsulation in Python?",
+            "34. Does Python supports multiple Inheritance?"
+        ],
+        "last_quiz": [
+            {
+                "question": "35. What is Polymorphism in Python?",
+                "answer": "Polymorphism means the ability to take multiple forms. Polymorphism allows different classes to be treated as if they are instances of the same class through a common interface. This means that a method in a parent class can be overridden by a method with the same name in a child class, but the child class can provide its own specific implementation. This allows the same method to operate differently depending on the object that invokes it. Polymorphism is about overriding, not overloading; it enables methods to operate on objects of different classes, which can have their own attributes and methods, providing flexibility and reusability in the code.",
+                "category": "OOP",
+                "difficulty": "Easy"
+            },
+            {
+                "question": "36. Define encapsulation in Python?",
+                "answer": "Encapsulation is the process of hiding the internal state of an object and requiring all interactions to be performed through an object\u2019s methods. This approach:",
+                "category": "OOP",
+                "difficulty": "Easy"
+            },
+            {
+                "question": "34. Does Python supports multiple Inheritance?",
+                "answer": "When a class is derived from more than one base class it is called multiple Inheritance. The derived class inherits all the features of the base case.",
+                "category": "OOP",
+                "difficulty": "Easy"
+            }
+        ],
+        "last_attempt": "2025-06-26"
+    },
+    "X": {
+        "attempted": 0,
+        "correct": 0,
+        "last_played": null,
+        "streak": 0,
+        "quiz_log": [
+            "49. What are unit tests in Python?",
+            "50. Python Global Interpreter Lock (GIL)?",
+            "32. What are Iterators in Python?"
+        ],
+        "last_quiz": [
+            {
+                "question": "49. What are unit tests in Python?",
+                "answer": "Unit Testing is the first level of software testing where the smallest testable parts of the software are tested. This is used to validate that each unit of the software performs as designed. The unit test framework is Python\u2019s xUnit style framework. The White Box Testing method is used for Unit testing.",
+                "category": "General",
+                "difficulty": "Easy"
+            },
+            {
+                "question": "50. Python Global Interpreter Lock (GIL)?",
+                "answer": "Python Global Interpreter Lock (GIL) is a type of process lock that is used by Python whenever it deals with processes. Generally, Python only uses only one thread to execute the set of written statements. The performance of the single-threaded process and the multi-threaded process will be the same in Python and this is because of GIL in Python. We can not achieve multithreading in Python because we have a global interpreter lock that restricts the threads and works as a single thread.",
+                "category": "General",
+                "difficulty": "Easy"
+            },
+            {
+                "question": "32. What are Iterators in Python?",
+                "answer": "In Python, iterators are used to iterate a group of elements, containers like a list. Iterators are collections of items and they can be a list, tuples, or a dictionary. Python iterator implements __itr__ and the next() method to iterate the stored elements. We generally use loops to iterate over the collections (list, tuple) in Python.",
+                "category": "General",
+                "difficulty": "Easy"
+            }
+        ]
+    },
+    "Sakhi": {
+        "attempted": 0,
+        "correct": 0,
+        "streak": 0,
+        "last_attempt": null
+    }
+}
