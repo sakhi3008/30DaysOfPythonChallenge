@@ -133,8 +133,3 @@ This final project tied together everything I learned during the 30 days:
 
 > A complete mini ecosystem for Python interview preparation built in just 30 days!
 
----
-
-## 🎉 Completed: 30 Days of Python Challenge ✔️
-
-Thank you for following along! 🚀
